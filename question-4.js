@@ -18,5 +18,5 @@ let minQuantity = inventory.reduce((acc, cur) => {
 }, 0);
 
 console.log(
-  `สินค้าที่มีจำนวนต่ำที่สุดในคลังสินค้าคือ Banana ซึ่งมี ${minQuantity} ชิ้น`
+  `สินค้าที่มีจำนวนต่ำที่สุดในคลังสินค้าคือ ${inventory[1].name} ซึ่งมี ${minQuantity} ชิ้น`
 );
